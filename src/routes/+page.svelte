@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Form from '$lib/components/form.svelte';
 	import '$lib/style.css';
 
 	import love from '$lib/assets/love.svg';
+	import Form from '$lib/components/Form.svelte';
 </script>
 
 <main>
@@ -10,7 +10,7 @@
 		<img class="logo-img" src={love} alt="Un dibujo de una flecha atravezando una carta." />
 		<h1>Correo Correo</h1>
 	</header>
-	<Form></Form>
+	<Form />
 </main>
 
 <style>

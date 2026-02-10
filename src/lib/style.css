@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	--color-main: #111111;
+	--color-contrast: #fffbf5;
+}
+
+body {
+	font-family: 'Crimson Text', serif;
+	color: var(--color-main);
+	font-size: 1.6rem;
+	font-weight: 450;
+}
+
+input,
+form,
+button {
+	all: unset;
+	font-family: inherit;
+	font-size: inherit;
+}

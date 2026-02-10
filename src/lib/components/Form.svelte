@@ -4,7 +4,7 @@
 	let buttonDisabled = $derived(!inputValid);
 
 	function cleanCode(code: string) {
-		return code.replace(/\s+/g, '');
+		return code.replace(/\s+/g, '').toUpperCase();
 	}
 	function processButtonClick() {
 		window.location.href = `https://alii.fillout.com/correocorreo?code=${cleanCode(code)}`;

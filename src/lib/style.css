@@ -5,11 +5,13 @@
 
 	--color-main: #111111;
 	--color-contrast: #fffbf5;
+	--color-background: #fffbf5;
 }
 
 body {
 	font-family: 'Crimson Text', serif;
 	color: var(--color-main);
+	background-color: var(--color-background);
 	font-size: 1.6rem;
 	font-weight: 450;
 }
